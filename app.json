@@ -1,0 +1,8 @@
+{
+  "pages": [
+    "pages/tabTools/tabTools",
+    "pages/tabCourses/tabCourses",
+    "pages/tabNotice/tabNotice",
+    "pages/tabAbout/tabAbout"
+  ]
+}

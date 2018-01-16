@@ -1,0 +1,9 @@
+<!--pages/login/login.wxml-->
+<form>
+  <view id='field'>
+    <input type='number' placeholder='学号/工号' auto-focus></input>
+    <input type='text' password placeholder='教务处密码'></input>
+  </view>
+  <button hover-class='button-hover'>登录</button>
+</form>
+<view id='troubleshoot' bindtap='cannotlogin'>无法登录？</view>

@@ -1,0 +1,36 @@
+/* pages/login/login.wxss */
+page{
+  background: #f6f7f9;
+}
+
+#field{
+  padding: 16.5px 0;
+}
+
+#field input{
+  background: white;
+  border-bottom: 0.5px solid #f6f7f9;
+  height: 43.5px;
+  font-size: 16.5px;
+  padding-left: 15.5px;
+}
+
+button, .button-hover{
+  width: 680rpx;
+  height: 40.5px;
+  background: #0188fb;
+  border-radius: 2px;
+  color: white;
+  line-height: 40.5px;
+}
+
+.button-hover{
+  background: #0078eb !important;
+}
+
+#troubleshoot{
+  color: #0084f3;
+  font-size: smaller;
+  padding: 20px 35rpx;
+  float: right;
+}

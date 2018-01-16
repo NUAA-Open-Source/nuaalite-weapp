@@ -1,1 +1,6 @@
 /* pages/tabTools/tabTools.wxss */
+.banner, swiper-item, swiper{
+  width: 750rpx;
+  height: 350rpx;
+  background: #ccc;
+}

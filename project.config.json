@@ -8,7 +8,7 @@
 		"newFeature": true
 	},
 	"compileType": "miniprogram",
-	"libVersion": "1.7.0",
+	"libVersion": "1.6.6",
 	"appid": "wx5b3b0b80663d47fd",
 	"projectname": "nuaaLite",
 	"condition": {
@@ -20,9 +20,19 @@
 			"current": -1,
 			"list": []
 		},
+		"game": {
+			"list": []
+		},
 		"miniprogram": {
 			"current": -1,
-			"list": []
+			"list": [
+				{
+					"id": -1,
+					"name": "login",
+					"pathName": "pages/login/login",
+					"query": ""
+				}
+			]
 		}
 	}
 }

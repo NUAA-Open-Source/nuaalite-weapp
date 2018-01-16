@@ -1,8 +1,40 @@
 {
   "pages": [
     "pages/tabTools/tabTools",
-    "pages/tabCourses/tabCourses",
     "pages/tabNotice/tabNotice",
-    "pages/tabAbout/tabAbout"
-  ]
+    "pages/tabAbout/tabAbout",
+    "pages/login/login"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#0b8bf0",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "南航 Lite",
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": false
+  },
+  "tabBar": {
+    "color": "#8d9097",
+    "selectedColor": "#445cc6",
+    "list": [
+      {
+        "pagePath": "pages/tabTools/tabTools",
+        "text": "工具",
+        "iconPath": "asserts/tabIcons/tools0.png",
+        "selectedIconPath": "asserts/tabIcons/tools1.png"
+      },
+      {
+        "pagePath": "pages/tabNotice/tabNotice",
+        "text": "消息",
+        "iconPath": "asserts/tabIcons/notice0.png",
+        "selectedIconPath": "asserts/tabIcons/notice1.png"
+      },
+      {
+        "pagePath": "pages/tabAbout/tabAbout",
+        "text": "我的",
+        "iconPath": "asserts/tabIcons/about0.png",
+        "selectedIconPath": "asserts/tabIcons/about1.png"
+      }
+    ]
+  }
 }

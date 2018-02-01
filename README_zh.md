@@ -6,6 +6,6 @@
 - [x] 空闲教室
 - [x] 个人课表
 ## 开始使用南航Lite微信小程序
-
+![Nuaa Lite](https://img.rvfu98.com/18-2-1/1493950.jpg)
 ## 反馈建议
 发邮件至 [rvfu98@gmail.com](mailto:rvfu98@gmail.com) 或者 [创建一个 issue](https://github.com/rvfu/nuaalite-android/issues/new)。

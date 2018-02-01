@@ -1,9 +1,6 @@
 <!--pages/tabTools/tabTools.wxml-->
 <swiper indicator-dots autoplay circular interval="5000" duration="1000">
-  <block wx:for="{{banners}}">
-    <swiper-item>
+    <swiper-item wx:for="{{banners}}" wx:key="*this">
       <image src="{{item}}" class="banner" width="355" height="150" />
-      <image></image>
     </swiper-item>
-  </block>
 </swiper>

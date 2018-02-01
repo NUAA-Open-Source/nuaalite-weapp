@@ -8,7 +8,7 @@
 		"newFeature": true
 	},
 	"compileType": "miniprogram",
-	"libVersion": "1.6.6",
+	"libVersion": "1.9.1",
 	"appid": "wx5b3b0b80663d47fd",
 	"projectname": "nuaaLite",
 	"condition": {

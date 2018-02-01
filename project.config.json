@@ -31,6 +31,12 @@
 					"name": "login",
 					"pathName": "pages/login/login",
 					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "studyroom",
+					"pathName": "pages/studyroom/index",
+					"query": ""
 				}
 			]
 		}

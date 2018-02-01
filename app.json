@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/studyroom/index",
     "pages/tabTools/tabTools",
     "pages/tabNotice/tabNotice",
     "pages/tabAbout/tabAbout",

@@ -1,0 +1,24 @@
+<!--pages/studyroom/index.wxml-->
+<view id='options'>
+  <view class='option'>
+    <view class='option-name'><text>校区：</text></view>
+    <div class='option-content'><text>将军路</text></div>
+  </view>
+  <view class='option'>
+    <view class='option-name'>日期：</view>
+    <div class='option-content'>今天</div>
+  </view>
+  <view class='option'>
+    <view class='option-name'>节次：</view>
+    <div class='option-content'>1-2</div>
+  </view>
+  <view class='option'>
+    <view class='option-name'></view>
+    <div class='option-content'>查询</div>
+  </view>
+</view>
+<scroll-view id='studyrooms' scroll-y>
+  <view class='studyroom' wx:for="{{studyrooms}}" wx:key="*this">
+    {{item}}
+  </view>
+</scroll-view>

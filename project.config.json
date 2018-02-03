@@ -8,7 +8,7 @@
 		"newFeature": true
 	},
 	"compileType": "miniprogram",
-	"libVersion": "1.9.1",
+	"libVersion": "1.9.8",
 	"appid": "wx5b3b0b80663d47fd",
 	"projectname": "nuaaLite",
 	"condition": {
@@ -24,7 +24,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": -1,
+			"current": 2,
 			"list": [
 				{
 					"id": -1,
@@ -37,6 +37,11 @@
 					"name": "studyroom",
 					"pathName": "pages/studyroom/index",
 					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "forvo",
+					"pathName": "pages/forvo/index"
 				}
 			]
 		}

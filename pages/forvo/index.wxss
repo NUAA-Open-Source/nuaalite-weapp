@@ -1,0 +1,27 @@
+/* pages/forvo/index.wxss */
+input{
+  font-size: 30rpx;
+  padding: 10px 20px;
+  background: #0b8bf0;
+  color: white;
+}
+
+.placeholder{
+  color: #ccc;
+}
+
+.sound{
+  margin: 10px 5px;
+  height: 50px;
+  background: #abcdef;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+image{
+  width: 40px;
+  height: 40px;
+}

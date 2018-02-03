@@ -1,0 +1,9 @@
+<!--pages/forvo/index.wxml-->
+<input type='text' placeholder='naive' placeholder-class='placeholder' bindblur='onblur'></input>
+<block wx:for="{{voices}}" wx:key="*this">
+  <view class='sound' data-src="{{item}}" bindtap='onPlay'>
+    <view>
+      <image src='icon/play.png'></image>
+    </view>
+  </view>
+</block>
